@@ -1,3 +1,8 @@
 * {
   font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  color: #000101;
+  background: #f8f7f1;
 }
