@@ -17,5 +17,5 @@
     "default_popup": "browserAction/index.html",
     "default_title": "Screen2Braille"
   },
-  "permissions": ["webRequest"]
+  "permissions": ["webRequest","activeTab"]
 }

@@ -5,8 +5,15 @@
 body {
   color: #000101;
   background: #f8f7f1;
+  min-width: 400px;
+  display: flex;
+  justify-items: center;
 }
 
+.actions {
+  display: flex;
+  flex-direction: row;
+}
 button {
   display: flex;
   padding: 0.75rem 1.25rem;
@@ -16,4 +23,8 @@ button {
   border: none;
   background: #eeb55a !important;
   color: #fefffe;
+  margin: 0 0.5rem;
+}
+button > img {
+  margin-right: 0.25rem;
 }
