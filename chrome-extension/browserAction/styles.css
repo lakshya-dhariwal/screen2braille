@@ -5,7 +5,7 @@
 body {
   color: #000101;
   background: #f8f7f1;
-  max-width: 400px;
+  max-width: 500px;
 }
 .popup {
   display: flex;
@@ -27,6 +27,7 @@ button {
   background: #eeb55a !important;
   color: #fefffe;
   margin: 0 0.5rem;
+
 }
 button > img {
   margin-right: 0.25rem;
@@ -43,4 +44,10 @@ button > img {
   color: #202021;
   text-align: center;
   margin: 0 1rem;
+}
+button:hover{
+  background: #af8643 !important;
+  border-width: 1px;
+  border-color: black;
+  transform: scale(105%);
 }

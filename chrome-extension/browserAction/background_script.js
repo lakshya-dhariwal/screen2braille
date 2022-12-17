@@ -33,3 +33,31 @@ function displaySummary(summary) {
 setTimeout(() => {
   getSummary();
 }, 100);
+
+// SPEECH SYNTHESIS API
+const synth = window.speechSynthesis;
+const audioButton = document.getElementById("audio");
+let sumData = "";
+audioButton.addEventListener("click", () => {
+  sumData = document.querySelector(".summary").innerText;
+  speak(sumData);
+});
+
+function speak(text) {
+  speakers = [
+    {
+      name: "Alex",
+      lang: "en-IN",
+    },
+  ];
+//speech configs
+  const speechText = new SpeechSynthesisUtterance();
+  speechText.volume = 1;
+  speechText.rate = 0.8;
+  speechText.pitch = 1.3;
+  speechText.text = text;
+  const voice = speakers[0];
+  // speechText.voiceURI=voice.name;
+  speechText.lang = voice.lang;
+  speechSynthesis.speak(speechText);
+}
