@@ -1,6 +1,5 @@
 // Put all the javascript code here, that you want to execute in background.
-let TAB_URL =
-  "https://www.geeksforgeeks.org/get-and-post-method-using-fetch-api/";
+let TAB_URL = "";
 const SUMMARIZER_API_URL = "https://api.meaningcloud.com/summarization-1.0";
 
 chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
