@@ -5,11 +5,14 @@
 body {
   color: #000101;
   background: #f8f7f1;
-  min-width: 400px;
+  max-width: 400px;
+}
+.popup {
   display: flex;
   justify-items: center;
+  align-items: center;
+  flex-direction: column;
 }
-
 .actions {
   display: flex;
   flex-direction: row;
@@ -27,4 +30,17 @@ button {
 }
 button > img {
   margin-right: 0.25rem;
+}
+
+.result {
+  border: 2px #eeb55a dashed;
+  text-align: center;
+  margin: 1rem;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+.summary {
+  color: #202021;
+  text-align: center;
+  margin: 0 1rem;
 }
