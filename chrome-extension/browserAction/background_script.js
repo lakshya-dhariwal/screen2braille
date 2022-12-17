@@ -11,9 +11,9 @@ const SUMMARIZER_OPTIONS = {
   },
 };
 
-// chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
-//   return (TAB_URL = tabs[0].url);
-// });
+chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
+  return (TAB_URL = tabs[0].url);
+});
 
 async function getSummary() {
   try {
