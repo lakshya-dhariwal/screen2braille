@@ -126,12 +126,8 @@ class str2br:
         time.sleep(2)
         for i in inp:
             GPIO.output(i,GPIO.LOW)
-            
 
-text1 = str2br("Hello World")
-text2 = str2br("We All Are Together")
-
-for char in text:
+    for char in text:
 	if char=='a':
 		printA()
 	elif char==' ':
@@ -186,3 +182,6 @@ for char in text:
 		printY()
 	elif char=='z':
 		printZ()
+            
+text1 = str2br("Hello World")
+text2 = str2br("We All Are Together")
