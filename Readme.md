@@ -17,6 +17,8 @@ Our web app **Screen2braille** is built with the following features:
 ## 🏅 Accomplishments that we're proud of
 
 - We are proud of the fact that we were able to complete the project in the given time.
+- We are able to empower differently abled people in a better way.
+- Through this project we could help the blind and deafs simultaneously.
 
 
 ## ⚙️ How we built it
